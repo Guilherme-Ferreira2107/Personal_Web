@@ -1,0 +1,40 @@
+#education .title{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+#education .bg-3 { 
+    background-image: linear-gradient(to right, #2d2d30 0%, #29323c 51%, #4286f4 100%);
+    color: #fff;
+}
+#education .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#education .container img { 
+    width: 150px; 
+}
+#education .img-codecademy{
+    float: right;
+}
+@media (max-width: 700px) {    
+    #education .img-codecademy{
+        display: flex;
+        justify-content: flex-end;
+        float: none;
+    }
+}
+#education a {
+    border: 0;
+    background: transparent;
+    border: 2px solid #4286f4;
+    padding: 14px 20px;
+    outline:none;
+    color: #fff;
+    border-radius: 24px;
+    transition: 0.25;
+    text-decoration: none;
+    cursor: pointer;
+}
+#education a:hover {
+    background:#4286f4;
+}

@@ -1,0 +1,26 @@
+#header .navbar {
+    padding-top: 15px;
+    margin-bottom: 3px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+#header a {
+    color: #333;
+}
+#header .navbar-default{
+    background: rgba(255, 255, 255, 0.95);
+}
+#header .menu-right{
+    border-bottom: 1px solid transparent;
+}
+#header .menu-right:hover{
+    border-bottom: 1px solid grey;
+}
+.progress-bar {
+    height: 8px;
+    background-image: linear-gradient(to right, #4286f4 0%, #29323c 51%, #4286f4 100%);
+    width: 0%;
+  }

@@ -1,0 +1,28 @@
+#intro {
+    background-image: url(../../images/coding-1853305.jpg);
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+#intro .container-fluid {
+    margin: 72px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#intro ul li{
+    list-style: none;
+    display: inline;
+    font-size: 2em;
+}
+#intro ul li:nth-last-child(1){
+    list-style: none;
+    color: red;
+    animation: animate 1s linear infinite;
+}
+@keyframes animate {
+    0% {
+        color: #fff;
+    }
+    100% {
+        color: transparent;
+    }
+}

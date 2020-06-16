@@ -1,0 +1,20 @@
+#skills .title {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+#skills .bg-2 { 
+    background-image: linear-gradient(to right, #2d2d30 0%, #29323c 51%, #4286f4 100%);
+    color: #fff;
+}
+#skills .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#skills img {
+    background-color: rgba(44, 44, 44, 0.4); //rgba(44, 44, 44, 0.7);
+    padding: 20px;
+    border-radius: 100%;
+}
+#skills .glyphicon{
+    color: rgb(255, 255, 0);
+}
