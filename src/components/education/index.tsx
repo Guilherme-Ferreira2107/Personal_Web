@@ -18,7 +18,7 @@ const Education = () => {
                             ter uma formação superior, ainda mais em uma das melhores faculdades de nível internacional, <br />
                             e com nota máxima no MEC. A faculdade disponhe de muitos projetos <br />
                             que complemetarão ainda mais meu conhecimento e experiência.</p><br />
-                        <a href="#">VISITAR SITE</a>
+                        <a href="https://www.uninter.com/">VISITAR SITE</a>
                         <br /><br />
                     </div>
                 </div>
@@ -33,7 +33,7 @@ const Education = () => {
                         <p>Na Codecademy obtive uma boa base de conhecimento sobre programação, graças a sua <br />
                         plataforma interativa online de ensino e sua metodologia inovadora desenvolvi uma <br />
                         boa base de conhecimento e fundamentos.</p><br />
-                        <a href="#">VISITAR SITE</a>
+                        <a href="https://www.codecademy.com/">VISITAR SITE</a>
                     </div>
                     
                     <br /><br />
@@ -52,7 +52,7 @@ const Education = () => {
                             escopo da governança de TI, e do seu impacto sobre a governança <br />
                             corporativa nas organizações.
                         </p><br />
-                        <a href="#">VISITAR SITE</a>
+                        <a href="https://www.ev.org.br/">VISITAR SITE</a>
                     </div>
                 </div>
             </div>

@@ -18,12 +18,12 @@ const Header = () => {
             </div>
             <div className="collapse navbar-collapse" id="myNavbar">
               <ul className="nav navbar-nav navbar-right">
-                <li className="menu-right"><a href="#intro">ABOUT</a></li>
-                <li className="menu-right"><a href="#education">EDUCATION</a></li>
-                <li className="menu-right"><a href="#experience">EXPERIENCE</a></li>
-                <li className="menu-right"><a href="#skills">SKILLS</a></li>
-                <li className="menu-right"><a href="#portfolio">PORTFOLIO</a></li>                
-                <li className="menu-right"><a href="#contacts">CONTACTS</a></li>                
+                <li className="menu-right"><a href="#intro">SOBRE</a></li>
+                <li className="menu-right"><a href="#education">EDUCAÇÃO</a></li>
+                <li className="menu-right"><a href="#experience">EXPERIÊNCIA</a></li>
+                <li className="menu-right"><a href="#skills">HABILIDADES</a></li>
+                <li className="menu-right"><a href="#portfolio">PORTFÓLIO</a></li>                
+                <li className="menu-right"><a href="#contacts">CONTATOS</a></li>                
               </ul>
             </div>
           </div>

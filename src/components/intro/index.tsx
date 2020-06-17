@@ -4,8 +4,8 @@ import './styles.scss';
 const Intro = () => {
   return (
     <div id="intro">
-      <div className="container container-fluid text-center">
-        <div className="Nome">
+      <div className="container container-fluid">
+        <div className="Nome text-center">
         <ul>
           <li>G</li>
           <li>U</li>
