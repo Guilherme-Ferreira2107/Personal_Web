@@ -8,12 +8,15 @@
     padding-top: 80px;
     padding-bottom: 80px;
 }
-#intro ul li{
+#name {
+    margin-left: -4 0px;
+}
+#name ul li {
     list-style: none;
     display: inline;
     font-size: 2em;
 }
-#intro ul li:nth-last-child(1){
+#name ul li:nth-last-child(1) {
     list-style: none;
     color: red;
     animation: animate 1s linear infinite;
