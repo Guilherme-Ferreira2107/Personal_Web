@@ -23,4 +23,12 @@
     height: 8px;
     background-image: linear-gradient(to right, #4286f4 0%, #29323c 51%, #4286f4 100%);
     width: 0%;
-  }
+}
+@media (min-width:1000px) {
+    #header a {
+        font-size: 12px;
+    }
+    #myNavbar li a {
+        font-size: 8px;
+    }
+}

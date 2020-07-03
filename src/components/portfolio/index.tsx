@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles.scss';
 
-import proTrader from '../../images/protrader.png';
-import pipToReal from '../../images/pip2real.png';
-import ecoleta from '../../images/ecoleta.png';
-import virta from '../../images/monitoramentovirta.png';
+import proTrader from '../../assets/images/protrader.png';
+import pipToReal from '../../assets/images/pip2real.png';
+import ecoleta from '../../assets/images/ecoleta.png';
+import virta from '../../assets/images/monitoramentovirta.png';
 
 const Portfolio = () => {
   return (

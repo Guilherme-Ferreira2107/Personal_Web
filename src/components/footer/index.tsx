@@ -1,9 +1,9 @@
 import React from 'react';
 import './styles.scss';
 
-import iconLinkedin from '../../assets/linkedin.svg';
-import iconWhatsapp from '../../assets/whatsapp.png';
-import iconGithub from '../../assets/github.svg';
+import iconLinkedin from '../../assets/icons/linkedin.svg';
+import iconWhatsapp from '../../assets/icons/whatsapp.png';
+import iconGithub from '../../assets/icons/github.svg';
 
 const Footer = () => {
   return (

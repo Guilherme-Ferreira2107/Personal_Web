@@ -1,5 +1,5 @@
 #intro {
-    background-image: url(../../images/coding-1853305.jpg);
+    background-image: url(../../assets/images/coding-1853305.jpg);
     background-repeat: no-repeat;
     color: #ffffff;
 }
@@ -8,15 +8,15 @@
     padding-top: 80px;
     padding-bottom: 80px;
 }
-#name {
+#intro {
     margin-left: -4 0px;
 }
-#name ul li {
+#intro span {
     list-style: none;
     display: inline;
-    font-size: 2em;
+    font-size: 1em;
 }
-#name ul li:nth-last-child(1) {
+#intro span {
     list-style: none;
     color: red;
     animation: animate 1s linear infinite;

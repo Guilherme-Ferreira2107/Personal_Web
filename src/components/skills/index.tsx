@@ -1,12 +1,12 @@
 import React from 'react';
 import './styles.scss';
 
-import iconReact from '../../assets/icons-react.svg';
-import iconNode from '../../assets/icons-nodejs.svg';
-import iconSass from '../../assets/icons-sass.png';
-import iconMysql from '../../assets/icons-mysql.png';
-import iconTypescript from '../../assets/icons-typescript.svg';
-import iconMongo from '../../assets/icons-mongo.png';
+import iconReact from '../../assets/icons/icons-react.svg';
+import iconNode from '../../assets/icons/icons-nodejs.svg';
+import iconSass from '../../assets/icons/icons-sass.png';
+import iconMysql from '../../assets/icons/icons-mysql.png';
+import iconTypescript from '../../assets/icons/icons-typescript.svg';
+import iconMongo from '../../assets/icons/icons-mongo.png';
 
 const Skills = () => {
   return (
