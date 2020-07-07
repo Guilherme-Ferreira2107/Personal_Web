@@ -1,11 +1,13 @@
 import React from 'react';
 import './styles.scss';
+import Script from '../../assets/js'
 
 const Header = () => {
   return (
     <>
     <div id="header">
       <header>
+        <Script />
         <nav className="navbar navbar-default navbar-fixed-top">
           <div className="container">
             <div className="navbar-header">

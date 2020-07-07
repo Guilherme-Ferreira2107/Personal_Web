@@ -2,11 +2,10 @@ import React from 'react';
 import './styles.scss';
 
 import {Motion, spring} from 'react-motion';
-import { red } from 'color-name';
 
   class Intro extends React.Component {
     state = {
-      left: 0
+      left: 0,
     };
   
     render () {

@@ -1,10 +1,27 @@
+$font-stack:    "Helvetica Neue",Helvetica,Arial,sans-serif;
+$one-color: #333;
+$two-color: #fff;
+$four-color: #2d2d30;
+$five-color: #29323c;
+$six-color: #4286f4;
+$seven-color: #d53a9d;
+$eight-color: #743ad5;
+
 #education .title{
-    color: #fff;
-    border-bottom: 1px solid #fff;
+    color: $two-color;
+}
+#education .title::after{
+    content: '';
+    width: 100px;
+    height: 2px;
+    background: $two-color;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 #education .bg-3 { 
-    background-image: linear-gradient(to right, #2d2d30 0%, #29323c 51%, #4286f4 100%);
-    color: #fff;
+    background-image: linear-gradient(to right, $four-color 0%, $five-color 51%, $six-color 100%);
+    color: $two-color;
 }
 #education .container-fluid {
     padding-top: 70px;
@@ -26,15 +43,15 @@
 #education a {
     border: 0;
     background: transparent;
-    border: 2px solid #4286f4;
+    border: 2px solid $six-color;
     padding: 14px 20px;
     outline:none;
-    color: #fff;
+    color: $two-color;
     border-radius: 24px;
     transition: 0.25;
     text-decoration: none;
     cursor: pointer;
 }
 #education a:hover {
-    background:#4286f4;
+    background:$six-color;
 }

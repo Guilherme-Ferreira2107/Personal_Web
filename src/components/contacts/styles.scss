@@ -1,6 +1,29 @@
-#contacts .title {
+$font-stack:    "Helvetica Neue",Helvetica,Arial,sans-serif;
+$one-color: #333;
+$two-color: #fff;
+$four-color: #2d2d30;
+$five-color: #29323c;
+$six-color: #4286f4;
+$seven-color: #d53a9d;
+$eight-color: #743ad5;
+
+#contacts .title{
+    color: $two-color;
+}
+#contacts .title::after{
+    content: '';
+    width: 100px;
+    height: 2px;
+    background: $two-color;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#contacts h4 {
     color: #fff;
-    border-bottom: 1px solid #fff;
+}
+#contacts p {
+    color: #e0e0e0;
 }
 #contacts .bg-2 { 
     background-image: linear-gradient(to right, #2d2d30 0%, #29323c 51%, #4286f4 100%);
