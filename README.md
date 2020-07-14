@@ -4,10 +4,10 @@ https://guilherme-ferreira2107.github.io
 ### Technology
 Developed with:
 
-React.js
-TypeScript
-Motion
-GSAP
-SCSS
+React.js<br />
+TypeScript<br />
+Motion<br />
+GSAP<br />
+SCSS<br />
 
 Para mais informações: Guilherme Ferreira: https://www.linkedin.com/in/guifsantos/
