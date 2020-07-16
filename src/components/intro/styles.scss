@@ -1,31 +1,58 @@
+@import '../styles.scss';
+
+$image-bgd: "../../assets/images/bg.JPG";
+
 #intro {
-    background-image: url(../../assets/images/coding-1853305.jpg);
+    height: 100vh;
+    background-image: url($image-bgd);
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    color: #ffffff;
+    background-size: cover;
+    background-position: center, 0 0;
+    color: $white;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
 }
-#intro .container-fluid {
-    margin: 72px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
+
 #intro {
-    margin-left: -4 0px;
-}
-#intro span {
-    list-style: none;
-    display: inline;
-    font-size: 1em;
-}
-#intro span {
-    list-style: none;
-    color: red;
-    animation: animate 1s linear infinite;
-}
-@keyframes animate {
-    0% {
-        color: #fff;
+    .container-fluid {
+        padding-top: 80px;
     }
-    100% {
-        color: transparent;
+    .box-intro {
+        background-color: $bg-dark-default;        
+    }
+    .box-name h2 {
+        padding-bottom: 20px;
+        letter-spacing: 5px;
+    }
+    .box-name h4 {
+        letter-spacing: 6px;
+    }
+    span {
+        display: inline;
+        font-size: 1em;
+        list-style: none;
+        color: $grey-default;
+        animation: underline-animate 1s linear infinite;
+    }
+    @keyframes underline-animate {
+        0% {
+            color: $white;
+        }
+        100% {
+            color: transparent;
+        }
+    }
+    h3, h4 {
+        font-family: $font-helvetica;
+    }
+    .box-apresent {
+        font-size: 17px;
+    }
+    .bg-transparent {
+        background-color: $grey-opacity;
+        color: $white;
+        padding: 20px 0 20px 0;
     }
 }

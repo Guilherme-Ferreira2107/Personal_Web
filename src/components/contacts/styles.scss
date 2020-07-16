@@ -1,35 +1,29 @@
-$font-stack:    "Helvetica Neue",Helvetica,Arial,sans-serif;
-$one-color: #333;
-$two-color: #fff;
-$four-color: #2d2d30;
-$five-color: #29323c;
-$six-color: #4286f4;
-$seven-color: #d53a9d;
-$eight-color: #743ad5;
+@import '../styles.scss';
 
-#contacts .title{
-    color: $two-color;
-}
-#contacts .title::after{
-    content: '';
-    width: 100px;
-    height: 2px;
-    background: $two-color;
-    display: flex;
-    margin: 0 auto;
-    margin-top: 10px;
-}
-#contacts h4 {
-    color: #fff;
-}
-#contacts p {
-    color: #e0e0e0;
-}
-#contacts .bg-2 { 
-    background-image: linear-gradient(to right, #2d2d30 0%, #29323c 51%, #4286f4 100%);
-    color: #fff;
-}
-#contacts .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+#contacts {
+    .title{
+        color: $white;
+    }
+    h4 {
+        color: $white;
+    }
+    p {
+        color: $white;
+    }
+    p a {
+        text-decoration: none;
+        color: $white;
+    }
+    p a:hover {
+        text-decoration: none;
+        color: $white-opacity;
+    }
+    .bg-2 { 
+        background: $bg-dark-default;
+        color: $white;
+    }
+    .container-fluid {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
 }

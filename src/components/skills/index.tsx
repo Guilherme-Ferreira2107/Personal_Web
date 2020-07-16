@@ -1,82 +1,90 @@
 import React from 'react';
 import './styles.scss';
 
-import iconReact from '../../assets/icons/icons-react.svg';
-import iconNode from '../../assets/icons/icons-nodejs.svg';
-import iconSass from '../../assets/icons/icons-sass.png';
-import iconMysql from '../../assets/icons/icons-mysql.png';
-import iconTypescript from '../../assets/icons/icons-typescript.svg';
-import iconMongo from '../../assets/icons/icons-mongo.png';
+import { Controller, Scene } from 'react-scrollmagic';
+import { Timeline, Tween } from 'react-gsap';
 
-const Skills = () => {
-  return (
-    <div id="skills" >
-      <div className="container-fluid bg-2 text-center">
-        <h3><span className="title">HABILIDADES</span></h3>
-        <br />
-        <div className="row slideanim">
-          <div className="col-sm-4">
-            <img src={iconReact} alt="React.js/React Native" />
-            <h5>REACTJS &amp; REACT NATIVE</h5>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-          </div>
-          <div className="col-sm-4">
-            <img src={iconNode} alt="Node.js" />
-            <h5>NODEJS</h5>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star-empty logo-small"></span>
-          </div>
-          <div className="col-sm-4">
-            <img src={iconMysql} alt="Mysql" /> 
-            <h5>MYSQL</h5>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star-empty logo-small"></span>
-          </div>
-        </div>
-        <br /><br />
-        <div className="row slideanim">
-          <div className="col-sm-4">
-            <img src={iconTypescript} alt="Typescript"/>
-            <h5>TYPESCRIPT</h5>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star-empty logo-small"></span>
-            <span className="glyphicon glyphicon-star-emply logo-small"></span>
-          </div>
-          <div className="col-sm-4">
-            <img src={iconMongo} alt="MongoDB"/>
-            <h5>MONGODB</h5>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star-empty logo-small"></span>
-          </div>
-          <div className="col-sm-4">
-            <img src={iconSass}  alt="CSS3/SCSS"/>
-            <h5>CSS3 &amp; SCSS</h5>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star logo-small"></span>
-            <span className="glyphicon glyphicon-star-empty logo-small"></span>
-          </div>
+import RN from './rn';
+import Node from './nodejs';
+import Mysql from './mysql';
+import Typescript from './typescript';
+import MongoDB from './mongodb';
+import Scss from './sass';
+
+class Skills extends React.Component {  
+  render() {
+    return (
+      <div id="skills" >
+        <div className="container-fluid bg-2 text-center">
+
+          <Controller>
+            <Scene triggerHook="onLeave" duration={2500} pin >
+              {(progress: number) => (
+                <Timeline totalProgress={progress} paused>
+                  <Timeline target={
+                    <div>
+                        <h3 className="margin text-center">
+                          <div className="title">
+                            <span>HABILIDADES</span><br /><br /><br />
+                          </div> 
+                        </h3>
+                    </div>
+                    }>
+                    <Tween from={{ y: 200, opacity: 0}} to={{ y: 0, opacity: 1 }} />
+                  </Timeline>
+                </Timeline>
+              )}
+            </Scene>
+
+            <Scene triggerHook="onLeave" duration={2800} pin >
+              {(progress: number) => (
+                <Timeline totalProgress={progress} paused>
+                  <Timeline target={ 
+                    <div className="row">
+                      <div className="col-sm-4">
+                        <RN />
+                      </div>
+                      <div className="col-sm-4">
+                        <Node />
+                      </div>
+                      <div className="col-sm-4">
+                        <Mysql /><br /><br />
+                      </div>
+                    </div>
+                  }>
+                  <Tween from={{ y: 500, opacity: 0, }} to={{ y: 0, opacity: 1, }} />
+                  </Timeline>
+                </Timeline>
+              )}
+            </Scene>
+
+            <Scene triggerHook="onLeave" duration={3000} pin >
+              {(progress: number) => (
+                <Timeline totalProgress={progress} paused>
+                  <Timeline target={ 
+                    <div className="row">
+                    <div className="col-sm-4">
+                      <Typescript />
+                    </div>
+                    <div className="col-sm-4">
+                      <MongoDB />
+                    </div>
+                    <div className="col-sm-4">
+                      <Scss />
+                    </div>
+                  </div>
+                  }>
+                  <Tween from={{ y: 600, opacity: 0 }} to={{ y: 0, opacity: 1, }} />
+                  </Timeline>
+                </Timeline>
+              )}
+            </Scene>
+
+          </Controller>
         </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default Skills;

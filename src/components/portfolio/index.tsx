@@ -86,66 +86,10 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-        
         </div>
 
       </div>
     </div>
-    /*
-    <div id="portfolio">
-      <div className="container-fluid bg-2 text-center">
-        <h3><span className="title">PORTFÓLIO</span></h3>
-        <br />
-        <div className="row slideanim">
-          <div className="col-sm-4">
-            <div className="box">
-              <img src={proTrader} alt="PRO TRADER INVESTING"/><br />
-              <h4>PRO TRADER INVESTING</h4><br />
-              <p>Aplicação web que gerencia e realiza rápidos cálculos para <br />
-              investidores do mercado financeiro da modalidade Opções Binárias.
-              </p><br />
-              <a href="https://guilherme-ferreira2107.github.io/">VER REPOSITÓRIO</a>
-            </div>
-          </div>
-          <div className="col-sm-4">
-          <div className="box">
-              <img src={pipToReal} alt="CONVERSOR DE PIP EM REAL"/><br />
-              <h4>CONVERSOR DE PIP EM REAL</h4><br />
-              <p>Aplicação web que converte pontos/pips em reais. O conversor de valor de pips, 
-                ajuda a monitorizar o seu risco por operação (trade) de uma forma mais exata.
-              </p><br />
-              <a href="https://github.com/Guilherme-Ferreira2107/ConverterPipsInReal">VER REPOSITÓRIO</a>
-            </div>
-          </div>
-          <div className="col-sm-4">
-          <div className="box">
-              <img src={ecoleta} alt="ECOLETA"/> <br />
-              <h4>ECOLETA</h4><br />
-              <p>O projeto tem o intuito de conectar pessoas com empresas que coletam resíduos 
-                específicos como: Baterias, Lâmpadas, Pilhas, óleo de cozinha, etc.
-              </p><br />
-              <a href="https://github.com/Guilherme-Ferreira2107/NextLevelWeek_01/">VER REPOSITÓRIO</a>
-            </div>
-          </div>
-          <div className="col-sm-4"><br />
-            <div className="box">
-              <img src={virta} alt="MONITORAMENTO VIRTA"/> <br />
-              <h4>MONITORAMENTO VIRTA</h4><br />
-              <p>Aplicativo mobile para monitoramento de notícias em tempo real. 
-                Notificação de notícia.
-                Visualização de imagens, áudios e vídeos.
-                Compartilhamento de notícia.
-                Favoritar notícias.
-                Busca por palavra, editoria e data.
-                Criação de gráficos baseado no histórico de notícias.
-              </p><br />
-              <a href="https://play.google.com/store/apps/details?id=br.com.grupovirta.monitoramento">VISITAR PÁGINA</a>
-            </div>
-          </div>
-          </div>
-      </div>
-    </div>
-  */
   );
 }
 

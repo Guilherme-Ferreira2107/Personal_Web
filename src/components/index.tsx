@@ -2,19 +2,32 @@ import React from 'react';
 import './styles.scss';
 
 import Header from './header';
-import Footer from './footer';
+import Portfolio from './portfolio';
+import Skills from './skills';
+import Contacts from './contacts';
+import Education from './education';
+import Experience from './experience';
 import Intro from './intro';
-import Main from './main';
+import Footer from './footer';
 
-const Index = () => {
-  return (
-    <>
-      <Header />
-      <Intro />
-      <Main />
-      <Footer />
-    </>
-  );
+class Index extends React.Component {  
+  
+  render() {
+    return(
+      <div>
+        <div id="fullpage">
+          <div id="header" className="section"><Header /></div>
+          <div id="intro" className="section"><Intro /></div>
+          <div id="education" className="section"><Education /></div>
+          <div id="experience" className="section"><Experience /></div>
+          <div id="skills" className="section skills"><Skills /></div>
+          <div id="portfolio" className="section"><Portfolio /></div>
+          <div id="contacts" className="section"><Contacts /></div>
+          <div id="footer" className="section"><Footer /></div>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default Index;

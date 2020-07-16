@@ -1,37 +1,23 @@
-$font-stack:    "Helvetica Neue",Helvetica,Arial,sans-serif;
-$one-color: #333;
-$two-color: #fff;
-$four-color: #2d2d30;
-$five-color: #29323c;
-$six-color: #4286f4;
-$seven-color: #d53a9d;
-$eight-color: #743ad5;
+@import '../styles.scss';
 
-#skills .title{
-    color: $two-color;
-}
-#skills .title::after{
-    content: '';
-    width: 100px;
-    height: 2px;
-    background: $two-color;
-    display: flex;
-    margin: 0 auto;
-    margin-top: 10px;
-}
-#skills .bg-2 { 
-    background-image: linear-gradient(to right, #2d2d30 0%, #29323c 51%, #4286f4 100%);
-    color: #fff;
-}
-#skills .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-#skills img {
-    background-color: rgba(44, 44, 44, 0.4); //rgba(44, 44, 44, 0.7);
-    padding: 20px;
-    border-radius: 100%;
-}
-#skills .glyphicon{
-    color: rgb(255, 255, 0);
+#skills {
+    .title {
+        color: $white;
+    }
+    .bg-2 { 
+        background: $bg-dark-default;
+        color: $white;
+    }
+    .container-fluid {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    img {
+        background-color: $white;
+        padding: 20px;
+        border-radius: 100%;
+    }
+    .glyphicon {
+        color: $yellow;
+    }
 }
