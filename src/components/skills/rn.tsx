@@ -1,13 +1,18 @@
-import React from 'react';
-import './styles.scss';
+import React from 'react'
+import './styles.scss'
 
-import iconReact from '../../assets/icons/icons-react.svg';
+import iconReact from '../../assets/icons/icons-react.svg'
 
-const RN = () => {
+const RN = (props: { title: any }) => {
+    const { title } = props
     return (
         <>
-            <img src={iconReact} alt="React.js/React Native" />
-            <h5>REACTJS &amp; REACT NATIVE</h5>
+            <img
+                src={iconReact}
+                className={title === 'REACT NATIVE' ? 'rn' : ''}
+                alt="React.js/React Native"
+            />
+            <h5>{title}</h5>
             <span className="glyphicon glyphicon-star logo-small"></span>
             <span className="glyphicon glyphicon-star logo-small"></span>
             <span className="glyphicon glyphicon-star logo-small"></span>
@@ -17,4 +22,4 @@ const RN = () => {
     )
 }
 
-export default RN;
+export default RN

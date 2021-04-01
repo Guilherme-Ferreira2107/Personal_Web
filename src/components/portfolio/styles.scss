@@ -1,10 +1,10 @@
 @import '../styles.scss';
 
 #portfolio {
-    .title{
+    .title {
         color: $grey-default;
     }
-    .bg-2 { 
+    .bg-2 {
         background-color: $white;
         color: $grey-default;
     }
@@ -39,10 +39,10 @@
         background: none;
         border: 2px solid $blue;
         padding: 14px 20px;
-        outline:none;
+        outline: none;
         color: $grey-default;
         border-radius: 24px;
-        transition: 0.25;
+        transition: 0.25s;
         text-decoration: none;
         cursor: pointer;
     }

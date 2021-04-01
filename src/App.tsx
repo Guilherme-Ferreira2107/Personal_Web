@@ -1,13 +1,6 @@
-import React from 'react';
-
+import React from 'react'
 import Index from './components'
 
-const App = () => {
-  return (
-    <>
-      <Index />
-    </>
-  );
-}
+const App = () => <Index />
 
-export default App;
+export default App

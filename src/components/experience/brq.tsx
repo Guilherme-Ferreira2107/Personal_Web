@@ -3,7 +3,7 @@ import './styles.scss'
 
 const Brq = () => {
     return (
-        <div className="timeLine">
+        <div className="timeLine two">
             <h4>BRQ Digital Solutions</h4>
             <p>
                 <em>Julho de 2020 - Até o momento</em>

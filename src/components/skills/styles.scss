@@ -3,8 +3,9 @@
 #skills {
     .title {
         color: $white;
+        margin: 60px;
     }
-    .bg-2 { 
+    .bg-2 {
         background: $bg-dark-default;
         color: $white;
     }
@@ -17,7 +18,20 @@
         padding: 20px;
         border-radius: 100%;
     }
+    .rn {
+        background-color: $bg-dark-default;
+    }
     .glyphicon {
         color: $yellow;
+    }
+    .content-line-one {
+        margin-bottom: 20px;
+    }
+    .content-line-two {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
     }
 }
