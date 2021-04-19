@@ -32,7 +32,7 @@ const Portfolio = () => {
                 <p>Aplicação web que gerencia e realiza rápidos cálculos para 
                 investidores do mercado financeiro da modalidade Opções Binárias.
                 </p><br />
-                <a href="https://github.com/Guilherme-Ferreira2107/ProTraderInvesting">VER REPOSITÓRIO</a>
+                <a href="https://github.com/Guilherme-Ferreira2107/app_proTrader">VER REPOSITÓRIO</a>
               </div>
             </div>
           </div>
