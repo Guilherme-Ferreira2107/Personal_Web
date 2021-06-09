@@ -7,7 +7,7 @@ import iconGithub from '../../assets/icons/github.svg'
 import moment from 'moment'
 
 const Footer = () => {
-    const anoAtual = moment().format('YYYY')
+    const currentYear = moment().format('YYYY')
     return (
         <div id="footer">
             <footer className="container-fluid bg-8 text-center">
@@ -44,9 +44,17 @@ const Footer = () => {
                     </a>
                 </div>
                 <p>
-                    Copyright ©{anoAtual} Todos os direitos reservados |
-                    DESENVOLVEDOR FULLSTACK GUILHERME SANTOS
+                    Copyright ©{currentYear} Todos os direitos reservados |
+                    Desenvolvedor Fullstack Javascript{' '}
+                    <a
+                        href="https://www.linkedin.com/in/guifsantos/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GUILHERME SANTOS
+                    </a>
                 </p>
+                <small>v.1.0.0</small>
             </footer>
         </div>
     )

@@ -46,7 +46,7 @@ const Contacts = () => {
                                                         Sou um desenvolvedor
                                                         criativo, que enxerga
                                                         além do objetivo
-                                                        proposto, Ssempre
+                                                        proposto, Sempre
                                                         buscando criar a melhor
                                                         comunicação com minha
                                                         equipe. Sei que acabamos
